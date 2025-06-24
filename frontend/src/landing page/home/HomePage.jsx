@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Hero from './Hero'
-import Awards from './Awards'
-import Stats from './Stats'
-import OpenAccount from '../OpenAccount'
-import Footer from '../Footer'
+import Navbar from './Navbar.jsx'
+import Hero from './Hero.jsx'
+import Awards from './Awards.jsx'
+import Stats from './Stats.jsx'
+import OpenAccount from '../OpenAccount.jsx'
+import Footer from '../Footer.jsx'
+import Pricing from './Pricing.jsx'
 
 const HomePage = () => {
   return (
