@@ -3,3 +3,12 @@
   color: #1f70eb !important;
   transition: color 0.3s;
 }
+a {
+  text-decoration: none;   
+}
+.appStoreBadge:hover {
+  opacity: 0.75;
+}
+.googlePlayBadge:hover {
+  opacity: 0.75;
+}

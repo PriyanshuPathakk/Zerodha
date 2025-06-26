@@ -11,14 +11,12 @@ import Education from './Education.jsx'
 const HomePage = () => {
   return (
     <>
-    <div><Navbar/></div>
     <div><Hero/></div>
     <div><Awards/></div>
     <div><Stats/></div>
     <div><Pricing/></div>
     <div><Education/></div>
     <div><OpenAccount/></div>
-    <div><Footer/></div>
     </>
 
   )

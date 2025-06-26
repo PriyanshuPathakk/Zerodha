@@ -1,41 +1,42 @@
 import React from "react";
+import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
-    <nav className="navbar bg-white fixed-top border-bottom" >
+    <nav className="navbar bg-white fixed-top border-bottom shadow-sm" >
       <div className="container-fluid py-3">
-        <a className="navbar-brand" style={{paddingLeft : "15%"}} href="">
+        <Link className="navbar-brand" style={{paddingLeft : "15%"}} to={"/"}>
           <img
             src="media/logo.svg"
             alt="Logo"
             className=""
             style={{ width: "31%" }}
           />
-        </a>
+        </Link>
         <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 d-flex flex-row">
           <li className="nav-item mx-5">
-            <a className="nav-link active fs-4 text-muted" aria-current="page" href="">
+            <Link className="nav-link active fs-4 text-muted" aria-current="page" to={"/signup"}>
               Signup
-            </a>
+            </Link>
           </li>
           <li className="nav-item mx-5">
-            <a className="nav-link active fs-4 text-muted" aria-current="page" href="">
+            <Link className="nav-link active fs-4 text-muted" aria-current="page" to={"/about"}>
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item mx-5">
-            <a className="nav-link active fs-4 text-muted" aria-current="page" href="">
+            <Link className="nav-link active fs-4 text-muted" aria-current="page" to={"/products"}>
               Products
-            </a>
+            </Link>
           </li>
           <li className="nav-item mx-5">
-            <a className="nav-link active fs-4 text-muted" aria-current="page" href="">
+            <Link className="nav-link active fs-4 text-muted" aria-current="page" to={"/pricing"}>
               Pricing
-            </a>
+            </Link>
           </li>
           <li className="nav-item mx-5">
-            <a className="nav-link active fs-4 text-muted" aria-current="page" href="">
+            <Link className="nav-link active fs-4 text-muted" aria-current="page" to={"/support"}>
               Support
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
