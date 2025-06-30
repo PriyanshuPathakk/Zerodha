@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 const Navbar = () => {
   return (
     <nav className="navbar bg-white fixed-top border-bottom shadow-sm" >
-      <div className="container-fluid py-3">
+      <div className="container-fluid py-3 ">
         <Link className="navbar-brand" style={{paddingLeft : "15%"}} to={"/"}>
           <img
             src="media/logo.svg"
